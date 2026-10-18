@@ -1,0 +1,23 @@
+name: NovaCompressor
+version: 1.0.0
+main: ir.novapixel.novacompressor.NovaCompressor
+api-version: '1.21'
+author: NovaPixel
+description: Custom item compressor system
+
+commands:
+  novacompressor:
+    description: NovaCompressor command
+    usage: /novacompressor <create|beforeblock|afterblock|delete|list|reload>
+    aliases:
+      - ncompressor
+      - compressor
+
+permissions:
+  novacompressor.use:
+    description: Allows players to use compressors
+    default: false
+
+  novacompressor.admin:
+    description: Allows managing compressors
+    default: op

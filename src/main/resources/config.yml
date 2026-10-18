@@ -1,0 +1,10 @@
+settings:
+  success-message: "&a✔ &fItems successfully compressed!"
+  no-permission: "&c✘ &fYou don't have permission to use the Compressor."
+  not-enough-items: "&c✘ &fYou don't have enough items."
+  created: "&a✔ &fCompressor created: &e{name}"
+  deleted: "&a✔ &fCompressor deleted: &e{name}"
+  not-found: "&c✘ &fThis Compressor does not exist."
+  reloaded: "&a✔ &fConfiguration reloaded successfully."
+
+compressors: {}
